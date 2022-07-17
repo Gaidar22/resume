@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital@1&family=Roboto&display=swap');
+
+body {
+	font-family: 'Noto', sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	background: lightgrey;
+}
+
+.header {
+	border: 1px solid grey;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+img {
+	box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.info p {
+	margin: 40px auto 0;
+}
+
+.info .card-gr, .info .header, .info .card-red{
+	width: 30%;
+	margin-right: 15px;
+}
+
+/*.card-gr {
+	border: 1px solid grey;
+	border-radius: 15px;
+	background: rgba(0, 180, 0, 0.2);
+	margin: 5px;
+	padding: 10px;
+}
+
+.card-red {
+	border: 1px solid grey;
+	border-radius: 15px;
+	background: rgba(180, 0, 0, 0.2);
+	padding: 10px;
+}*/
+
+.hobby-yellow {
+	border: 1px solid grey;
+	border-radius: 15px;
+	background: rgba(180, 180, 0, 0.2);
+	padding: 10px;
+	cursor: pointer;
+}
+
+.hobby-yellow:hover {
+	background: red;
+
+}
+
+.educ-pink {
+	border: 1px solid grey;
+	border-radius: 15px;
+	background: rgba(90, 180, 180, 0.2);
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.container {
+	margin: 10px;
+	padding: 5px 10px;
+	border: 2px solid black;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+.btn {
+	background: #222;
+	padding: 15px 20px;
+	color: white;
+	border: 5px solid #134567;
+	border-radius: 10px;
+	cursor: pointer;
+	font-family: inherit;
+}
+
+.btn:hover {
+	opacity: 0.7;
+}
+
+.list-hobby {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list-hobby li {
+	margin-bottom: 8px;
+	border-bottom: 1px solid #555111;
+}
+
+.table-educ {
+	width: 100%;
+}
+
+td {
+	text-align: center;
+	padding-bottom: 8px;
+}
+
+td:hover {
+	background: #345;
+	cursor: pointer;
+}
+
+tr:nth-child(even) {
+	background: #bcb;
+}
+
+.contactinfo {
+	border: 1px solid grey;
+	border-radius: 15px;
+	background: #818181;
+	padding: 10px;
+}
+
+.form h2 {
+	text-align: center;
+}
+
+.form-row {
+	margin-bottom: 10px;
+	display: flex;
+}
+
+.form-row .form-group {
+	/*display: inline-block;*/
+	margin-right: 20px;
+	width: 50%;
+	/*width: calc(50% - 20px);*/
+}
+
+.form-row .form-group:last-child {
+	margin-right: 0px;
+}
+
+.form-group label {
+	display: block;
+	font-size: 14px;
+	color: #86898f;
+}
+
+.form-group input, .form-group textarea {
+	width: 100%;
+	box-sixing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid #000;
+	color: #000;
+	padding: 15px 0 10px;
+	outline: none;
+	font-family: inherit;
+}
+
